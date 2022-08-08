@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;300;500;600;700;800&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+  --black: #030303;
+  --orange: #EB7565;
+  --white: #FFF7F0;
+  --medium-brown: #7A746E;
+  --purple: #755CDE;
+  --yellow: #F6A560;
+  --pink: #F39E9E;
+  --cyan: #61C4B7;
+  --dark-purple: #552049;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+h1 {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.cta-button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
+
+.black {
+  background-color: var(--black)
+}
+
+.orange {
+  background-color: var(--orange);
+}

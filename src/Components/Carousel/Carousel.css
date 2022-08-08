@@ -1,0 +1,51 @@
+.carousel-container {
+    text-align: center;
+}
+
+.carousel-img-container {
+    display: flex;
+    margin: 4rem 0;
+}
+
+.carousel-header {
+    font-size: 1.5rem;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+    .carousel-header {
+        font-size: 2rem;
+    }
+}
+
+
+
+.carousel-img {
+    max-width: 16rem;
+    max-height: 11.25rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .carousel-img {
+        max-width: 33rem;
+        max-height: 22.5rem;
+    }
+}
+
+
+.active {
+    display: flex;
+    margin: auto;
+}
+
+.carousel-arrow {
+    min-height: 2rem;
+    background-color: var(--black);
+    border-radius: 30px;
+    padding: 1.5rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+}
