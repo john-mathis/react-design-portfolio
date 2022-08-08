@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/mackmathis/react-design-portfolio)
 - Live Site URL:(https://mackmathis.github.io/react-design-portfolio/)
 
 ## My process
